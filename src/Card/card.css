@@ -1,0 +1,21 @@
+.daily-photo {
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    border: 1px solid black;
+    width: 800px;
+    justify-content: center;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+img {
+    margin-left: 25%;
+}
+
+.lower {
+    display: flex;
+    flex-direction: column;
+    align-content: center; 
+}
