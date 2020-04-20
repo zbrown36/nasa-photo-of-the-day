@@ -7,7 +7,7 @@ const Card = ({ pic }) => {
         <div className="daily-photo">
             <h1>NASA's Daily Photo for {pic.date}</h1>
             <h2>{pic.title}</h2>
-            <img src={pic.url} alt="picture from nasa" width = "400px"></img>
+            <img src={pic.url} alt="nasa" width = "400px"></img>
             <div className="lower">
                 <p>HD picture:<a href="{pic.hdurl}">{pic.hdurl}</a></p>
                 <p>{pic.explanation}</p>
